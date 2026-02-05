@@ -11,3 +11,5 @@ ik was vorige keer heel erg werk georienteerd ik ga dat proberen vast te houden 
 mijn best blijven doen en helpen zo nodig - Jamie
 
 Mezelf verbeteren in het samenwerken met het groepje - Brooklyn
+
+Ik wil beter worden in communiceren en samenwerken. - I Made
