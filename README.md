@@ -8,3 +8,4 @@ niemand is teamleider.
 
 meer feedback vragen van de klant en van mijn groepje - ian
 ik was vorige keer heel erg werk georienteerd ik ga dat proberen vast te houden en nogmeer in te verbeteren-ian
+mijn best blijven doen en helpen zo nodig - Jamie
