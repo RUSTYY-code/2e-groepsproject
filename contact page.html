@@ -9,16 +9,17 @@
 <body>
 
     <header>
-        <img src="img/norasFloraLogo.png" alt="Nora's Flora Logo" width="234" height="151">
+        <img src="img/norasFloraLogo.png" class="Logo">
     </header>
 
-    <header class="Header2">
-        <p>
-            <a href="index.html">| Home |</a>
-            <a href="assortiment.html">| Assortiment |</a>
-            <a href="contact.html">| Contact |</a>
-        </p>
     </header>
+    <nav>
+        <ul>
+            <li><a href="home.html" class="navText">| Home |</a></li>
+            <li><a href="assortiment.html" class="navText">| Assortiment |</a></li>
+            <li><a href="contact.html" class="navText">| Contact |</a></li>
+        </ul>
+    </nav>
 
     <div style="background-color: rgb(222, 242, 187); height: 40px;"></div>
 
@@ -75,19 +76,30 @@
 
     <div style="background-color: rgb(222, 242, 187); height: 40px;"></div>
 
-    <footer>
-        <div style="display:inline-block; vertical-align:top; margin-right:50px;">
-            Email : contact@noraflora.com <br>
-            Telefoon : 06 12345678 <br>
-            Adres : Zwolle, pannenkoekendijk 420 B
+    <div class="footer-container">
+
+        <div class="opening">
+            <h2>Openingstijden</h2>
+
+            <div class="row">
+                <span>Ma–vr</span>
+                <span>12:00 – 17:00</span>
+            </div>
+
+            <div class="row">
+                <span>Zaterdag</span>
+                <span>10:00 – 17:00</span>
+            </div>
         </div>
 
-        <div style="display:inline-block; vertical-align:top;">
-            Openingstijden <br>
-            Ma - Vr : 12:00 - 17:00 <br>
-            Zaterdag : 10:00 - 17:00
+
+        <div class="contact">
+            <p>email&nbsp;&nbsp;&nbsp;&nbsp;: contact@noraflora.com</p>
+            <p>telefoon&nbsp;: 0612345678</p>
+            <p>adres&nbsp;&nbsp;&nbsp;&nbsp;: Zwolle Pannekoekendijk420B</p>
         </div>
-    </footer>
+
+    </div>
 
 </body>
 
