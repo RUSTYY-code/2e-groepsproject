@@ -60,6 +60,15 @@ header {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+.Header2 {
+    text-align: center;
+    background-color: rgb(46, 82, 39);
+    position: relative;
+    padding: 0.75px;
+    font-size: 1.5vmax;
+    color: white;
+}
+
 .Logo {
     width: 150px;
     height: auto;
@@ -386,7 +395,7 @@ footer {
 
 #background {
     width: 100%;
-    height: 600px; 
+    height: 600px;
     object-fit: cover;
     display: block;
 }
@@ -412,30 +421,30 @@ footer {
 
 .home-blokken {
     display: grid;
-    grid-template-columns: repeat(3, auto); 
+    grid-template-columns: repeat(3, auto);
     gap: 25px;
     padding: 25px 0;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .blok {
-  width: 300px;
-  height: 225px;
-  background-color: #d9edb5;
-  text-align: center;
-  border-radius: 15px;
-  overflow: hidden;
+    width: 300px;
+    height: 225px;
+    background-color: #d9edb5;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .blok img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;  
-  display: block;      
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
 }
 
 .assortment-bg {
-  background-color: #D9EDB5;
+    background-color: #D9EDB5;
 }
 
 @media (max-width: 900px) {
@@ -532,7 +541,7 @@ footer {
     background: #ffffff;
     padding: 12px;
     border-radius: 30px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
 }
 
 .welcome-image img {
@@ -546,10 +555,10 @@ footer {
 
 .welcome-wrapper {
     display: flex;
-     background-color: #3f593d;
+    background-color: #3f593d;
     align-items: center;
-    justify-content: center; 
-    gap: 150px;               
+    justify-content: center;
+    gap: 150px;
     padding: 80px 40px;
     margin: 0 auto;
     color: #ffffff;
@@ -564,7 +573,7 @@ footer {
 .footer-info {
     background-color: #283e24;
     color: #ffffff;
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 
@@ -594,8 +603,9 @@ footer {
 .footer-info {
     background-color: #283e24;
     color: #ffffff;
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+
 .feedback-input {
     width: 50%;
     border-radius: 200px;
