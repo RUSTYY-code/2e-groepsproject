@@ -607,3 +607,20 @@ footer {
     font-family: inherit;
     outline: none;
 }
+
+.container3 {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    gap: 5px;
+}
+
+.container3 div {
+    background-color: #f1f1f1;
+    color: #000000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
