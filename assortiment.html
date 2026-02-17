@@ -134,6 +134,37 @@
 
         </div>
     </footer>
+
+    <script>
+
+        let container = document.querySelector(".assortment-grid");
+
+        const newPlant = [
+            { name: "ytsygUcgyaeuh", prijs: "faewrsfTUYCGVIUH", image: ""},
+
+            { name: "naaaaaaam", prijs: "100000000", image: "pexels-jmark-250716.jpg"},
+
+            { name: "", prijs: "", image: ""},
+
+             { name: "", prijs: "", image: ""},
+        ]
+        for(let i = 0; i <= newPlant.length; i++){
+        let newItemName = newPlant[i].name;
+        let newItemPrijs = newPlant[i].prijs;
+        let newItemImage = newPlant[i].image;
+
+        let div = document.createElement('div');
+
+        div.innerHTML = `<div class="assortment-item">
+                    <img src="${newItemImage}" alt="Diversen velt planten">
+                    <div class="assortment-caption">
+                        <span>${newItemName}</span>
+                        <span>Al vanaf €${newItemPrijs},- per pot</span>
+                    </div>
+                    </div>`;
+        container.appendChild(div);
+        }
+    </script>
 </body>
 
 </html>
