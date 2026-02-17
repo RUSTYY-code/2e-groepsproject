@@ -3,39 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<head>
-    <title>contact page</title>
-    <link rel="stylesheet" href="style.css">
-<div class="container">
-    
-</div>
-    <script src="app.js"></script>
-</head>
-</body>
-</html>
+    <title>Shopping Cart - Nora's Flora</title>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
+   
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-</head>
-<body>
-    <header>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: white;
+            border-bottom: 2px solid #e5e5e5;
+        }
+
+        .Logo {
+            height: 70px;
+        }
+
+        .icon-cart {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .icon-cart span {
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            background: #dc3545;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 50%;
+            font-size: 12px;
+        }
+
+        .product-row {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .product-row img {
+            border-radius: 12px;
+            width: 100%;
+        }
+
+        .mijn-button {
+            border-radius: 12px;
+            padding: 12px 24px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-success.mijn-button {
+            background-color: #28a745;
+        }
+
+        .btn-success.mijn-button:hover {
+            background-color: #218838;
+        }
+
+        .btn-warning.mijn-button {
+            background-color: #ffc107;
+        }
+
+        .btn-warning.mijn-button:hover {
+            background-color: #e0a800;
+        }
+
+        .total-box {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,169 +100,76 @@
     </div>
 </header>
 
-        
+<div class="container mt-4">
+
+  
+    <div class="row product-row">
+        <div class="col-2">
+            <img src="img/pexels-pixabay-54267.jpg" alt="Zonnebloemen" style="width:500px;height:500px;">"> 
         </div>
-    
-
-    </header>
-
-    
-        <div class="row m-4" ">
-                <div class="col-6">
-
-                </div>
-                
-                <div class="col-2">
-
-                    
-                </div>
-                
-                <div class="col-2">
-                    
-                </div>
-
-                <div class="col-2">
-
-                    
-                </div>
-            
+        <div class="col-4">
+            <h4>Zonnebloem</h4>
         </div>
-        <hr>
-        <div class="row m-4">
-            <div class="col-1">
-                <div class="card" style="width: 7rem;">
-                    <img src="img/pexels-pixabay-54267.jpg" alt="zonnebloemen" style="border-radius:20px;" posi>
-                    <div class="card-body">
-                      <p class="card-text"></p> 
-                    </div>
-                </div>         
-            </div>
-            <div class="col-5" >
-                <h4>ZonneBloem</h4>
-                
-            </div>
-           
-            <div class="col-2">€5        
-            </div> 
-          
-            <div class="col-2">
-                 <label for="cars">Kies Aantal:</label>
-
-<select name="amount" id="amount">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-</select>
-            </div>
-            
-            <div class="col-1">   
-            </div>
-
-           
+        <div class="col-2">
+            €5,-
+        </div>
+        <div class="col-2">
+            <label>Kies Aantal:</label>
+            <select class="form-select">
+                <option>1</option><option>2</option><option>3</option><option>4</option>
+            </select>
+        </div>
     </div>
 
-<hr>
-
- <hr>
-        <div class="row m-4">
-            <div class="col-1">
-                <div class="card" style="width: 7rem;">
-                    <img src="img/pexels-valeriya-1961778.jpg" alt="zonnebloemen" style="border-radius:20px;">
-                    <div class="card-body">
-                      <p class="card-text"></p> 
-                    </div>
-                </div>         
-            </div>
-            <div class="col-5" >
-                <h4>Rode Tulpen</h4>
-                
-            </div>
-           
-            <div class="col-2">€3        
-            </div> 
-          
-            <div class="col-2">
-                 <label for="cars">Kies Aantal:</label>
-
-<select name="amount" id="amount">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-</select>
-            </div>
-            
-            <div class="col-1">   
-            </div>
-
-
-
+    <!-- PRODUCT 2 -->
+    <div class="row product-row">
+        <div class="col-2">
+            <img src="img/pexels-valeriya-1961778.jpg" alt="Rode Tulpen" style="width:500px;height:500px;">
+        </div>
+        <div class="col-4">
+            <h4>Rode Tulpen</h4>
+        </div>
+        <div class="col-2">
+            €3,-
+        </div>
+        <div class="col-2">
+            <label>Kies Aantal:</label>
+            <select class="form-select">
+                <option>1</option><option>2</option><option>3</option><option>4</option>
+            </select>
+        </div>
     </div>
 
-<hr>
-
-   </div>
-        <hr>
-        <div class="row m-4">
-            <div class="col-1">
-                <div class="card" style="width: 7rem;">
-                    <img src="img/pexels-scottwebb-403571.jpg" alt="zonnebloemen" style="border-radius:20px;">
-                    <div class="card-body">
-                      <p class="card-text"></p> 
-                    </div>
-                </div>         
-            </div>
-            <div class="col-5" >
-                <h4></h4>
-                Cactus in pot
-            </div>
-           
-            <div class="col-2">3 voor €5,- deze week.       
-            </div> 
-          
-            <div class="col-2">
-                <label for="cars">Kies Aantal:</label>
-
-<select name="amount" id="amount">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-</select>
-            </div>
-            
-            <div class="col-1">   
-            </div>
-
-
-    </div>
-
-<hr>
-
-
-
-
-<div class="row m-4" >
-    <div class="col-10">
-        <button type="button" class="btn btn-warning"> Doorgaan met winkelen</button>
-    </div>
     
-    <div class="col-1"> <b>Total: $1.99</b>
-
-        
+    <div class="row product-row">
+        <div class="col-2">
+            <img src="img/pexels-scottwebb-403571.jpg" alt="Cactus" style="width:500px;height:500px;">
+        </div>
+        <div class="col-4">
+            <h4>Cactus in pot</h4>
+        </div>
+        <div class="col-2">
+            3 voor €5,-
+        </div>
+        <div class="col-2">
+            <label>Kies Aantal:</label>
+            <select class="form-select">
+                <option>1</option><option>2</option><option>3</option><option>4</option>
+            </select>
+        </div>
     </div>
+
     
-    <div class="col-1">
-        <button type="button" class="btn btn-success">Afrekenen></button> 
+    <div class="row mt-4">
+        <div class="col-8">
+            <button class="btn btn-warning mijn-button">Doorgaan met winkelen</button>
+        </div>
+        <div class="col-2 total-box">
+            Total: €1.99
+        </div>
+        <div class="col-2">
+            <button class="btn btn-success mijn-button">Afrekenen ></button>
+        </div>
     </div>
 
 </div>
-
-
-
-
-    
-</body>
-<script src="/js/bootstrap.bundle.min.js"></script>
-</html>
