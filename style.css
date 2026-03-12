@@ -625,6 +625,20 @@ footer {
     text-align: center;
 }
 
+div.icon-cart {
+    left: 45%;
+}
 
+.icon-cart {
+    position: relative;
+    cursor: pointer;
+}
 
-
+.icon-cart span {
+    position: flex;
+    background: #dc3545;
+    color: white;
+    padding: 4px 7px;
+    border-radius: 50%;
+    font-size: 12px;
+}
