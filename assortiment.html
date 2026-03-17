@@ -11,6 +11,15 @@
 <body>
     <header>
         <img src="img/norasFloraLogo.png" class="Logo">
+        <div class="icon-cart">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="42.5" height="40" fill="currentColor"
+                viewBox="0 0 24 24">
+                <path fill-rule="evenodd"
+                    d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z"
+                    clip-rule="evenodd" />
+            </svg>
+            <span>0</span>
+        </div>
     </header>
     <nav>
         <ul>
@@ -79,7 +88,7 @@
                     </div>
                 </div>
 
-              
+
                 <div class="assortment-item">
                     <img src="img\pexels-jos-van-ouwerkerk-377363-1075960.jpg" alt="Diverse lente bloemen">
                     <div class="assortment-caption">
@@ -140,29 +149,29 @@
         let container = document.querySelector(".assortment-grid");
 
         const newPlant = [
-            { name: "ytsygUcgyaeuh", prijs: "faewrsfTUYCGVIUH", image: ""},
+            { name: "ytsygUcgyaeuh", prijs: "faewrsfTUYCGVIUH", image: "" },
 
-            { name: "naaaaaaam", prijs: "100000000", image: "pexels-jmark-250716.jpg"},
+            { name: "naaaaaaam", prijs: "100000000", image: "pexels-jmark-250716.jpg" },
 
-            { name: "", prijs: "", image: "img/pexels-jmark-250716.jpg"},
+            { name: "", prijs: "", image: "img/pexels-jmark-250716.jpg" },
 
-             { name: "", prijs: "", image: ""},
+            { name: "", prijs: "", image: "" },
         ]
-        for(let i = 0; i <= newPlant.length; i++){
-        let newItemName = newPlant[i].name;
-        let newItemPrijs = newPlant[i].prijs;
-        let newItemImage = newPlant[i].image;
+        for (let i = 0; i <= newPlant.length; i++) {
+            let newItemName = newPlant[i].name;
+            let newItemPrijs = newPlant[i].prijs;
+            let newItemImage = newPlant[i].image;
 
-        let div = document.createElement('div');
+            let div = document.createElement('div');
 
-        div.innerHTML = `<div class="assortment-item">
+            div.innerHTML = `<div class="assortment-item">
                     <img src="${newItemImage}" alt="Diversen velt planten">
                     <div class="assortment-caption">
                         <span>${newItemName}</span>
                         <span>Al vanaf €${newItemPrijs},- per pot</span>
                     </div>
                     </div>`;
-        container.appendChild(div);
+            container.appendChild(div);
         }
     </script>
 </body>

@@ -61,9 +61,11 @@ header {
 }
 
 .Logo {
+    position: center;
     width: 150px;
     height: auto;
     padding: 0;
+    margin-left: 1.5%;
 }
 
 
@@ -626,7 +628,7 @@ footer {
 }
 
 div.icon-cart {
-    left: 45%;
+    left: 43%;
 }
 
 .icon-cart {
@@ -635,10 +637,10 @@ div.icon-cart {
 }
 
 .icon-cart span {
-    position: flex;
+    position: fixed;
     background: #dc3545;
     color: white;
-    padding: 4px 7px;
+    padding: 4px 9px;
     border-radius: 50%;
     font-size: 12px;
 }
