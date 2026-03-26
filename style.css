@@ -629,6 +629,7 @@ footer {
 
 div.icon-cart {
     left: 43%;
+    right: auto;
 }
 
 .icon-cart {
@@ -643,4 +644,15 @@ div.icon-cart {
     padding: 4px 9px;
     border-radius: 50%;
     font-size: 12px;
+}
+
+.buttons {
+    grid-template-rows: 50% 50%;
+}
+
+.cartButton,
+.cartButton2 {
+    width: 50%;
+    background-color: rgb(228, 255, 155);
+    border-color: #D9EDB5;
 }
