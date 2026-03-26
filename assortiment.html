@@ -112,6 +112,8 @@
 
 
 
+    <button class="cartButton">dfas</button>
+    <button class="cartButton2">safd</button>
 
 
 
@@ -176,17 +178,7 @@
         }
     </script>
 
-    <script>
-        const plantAdd = document.querySelector('.cartButton');
-        const cartCount = document.querySelector('.icon-cart span');
-        plantAdd.addEventListener('click', function () {
-            let current = parseInt(cartCount.innerText);
-            cartCount.innerText = current + 1;
-            if (current >= 9) {
-                cartCount.innerText = '9+';
-            }
-        });
-    </script>
+    <script src="cart-icon-counter.js"></script>
 </body>
 
 </html>
