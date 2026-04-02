@@ -3,7 +3,6 @@ const cartCount = document.querySelector(".icon-cart span");
 
 const addButtons = document.querySelectorAll(".add-to-cart-btn");
 
-// Startwaarde
 let count = 0;
 
 addButtons.forEach((button) => {
