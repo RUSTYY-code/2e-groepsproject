@@ -3,7 +3,6 @@ const addButtons = document.querySelectorAll(".add-to-cart-btn");
 
 let count = parseInt(localStorage.getItem("cartCount"), 10) || 0;
 
-
 cartCount.textContent = count;
 addButtons.forEach((button) => {
     button.addEventListener("click", () => {
