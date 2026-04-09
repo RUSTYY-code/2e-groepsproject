@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Home</title>
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="img/norasFloraLogo.png" as="image">
+    <link rel="preload" href="img/pexels-jmark-250716.jpg" as="image">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js" defer></script>
+    <script src="cart-icon-counter.js" defer></script>
 </head>
 
 <body>
@@ -36,7 +42,7 @@
         </ul>
     </nav>
 
-    <img src="img/pexels-jmark-250716.jpg" id="background">
+    <img src="img/pexels-jmark-250716.jpg" loading="lazy" id="background">
 
     <header id="header2">Bloemetjes die in het zonnetje gezet worden</header>
 
@@ -44,42 +50,42 @@
     <div class="home-blokken">
 
         <div class="blok">
-            <img src="img/pexels-pixabay-54267.jpg" alt="zonnebloemen">
+            <img src="img/pexels-pixabay-54267.jpg" loading="lazy" alt="zonnebloemen">
 
             <h2>Zonnebloemen</h2>
             <p>€2,- per bos deze maandag</p>
         </div>
 
         <div class="blok">
-            <img src="img/pexels-valeriya-1961778.jpg" alt="zonnebloemen">
+            <img src="img/pexels-valeriya-1961778.jpg" loading="lazy" alt="zonnebloemen">
 
             <h2>Rode Tulpen</h2>
             <p>€3,- per bos deze dinsdag</p>
         </div>
 
         <div class="blok">
-            <img src="img/pexels-scottwebb-403571.jpg" alt="zonnebloemen">
+            <img src="img/pexels-scottwebb-403571.jpg" loading="lazy" alt="zonnebloemen">
 
             <h2>Cactus in pot</h2>
             <p>Deze week, 3 voor €5,-</p>
         </div>
 
         <div class="blok">
-            <img src="img/pexels-nextvoyage-457937.jpg" alt="zonnebloemen">
+            <img src="img/pexels-nextvoyage-457937.jpg" loading="lazy" alt="zonnebloemen">
 
             <h2>Speciaal deze maand</h2>
             <p>Import gras uit Toronto Canada</p>
         </div>
 
         <div class="blok">
-            <img src="img/pexels-mikebirdy-109828.jpg" alt="zonnebloemen">
+            <img src="img/pexels-mikebirdy-109828.jpg" loading="lazy" alt="zonnebloemen">
 
             <h2>Paarse Allium Bloemen</h2>
             <p>Gratis als extra bij een bouqet</p>
         </div>
 
         <div class="blok">
-            <img src="img/pexels-maureen-piecesphotography-1207978.jpg" alt="zonnebloemen">
+            <img src="img/pexels-maureen-piecesphotography-1207978.jpg" loading="lazy" alt="zonnebloemen">
 
             <h2>Vetbloemen deze week</h2>
             <p>3 + 1 gratis</p>
@@ -115,7 +121,7 @@
             </div>
 
             <div class="welcome-image">
-                <img src="img/pexels-olly-3775156.jpg" alt="Nora met bloemen">
+                <img src="img/pexels-olly-3775156.jpg" loading="lazy" alt="Nora met bloemen">
             </div>
         </div>
         <div class="footer-container">

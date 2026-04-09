@@ -2,14 +2,22 @@
 <html lang="en">
 
 <head>
-    <title>contact page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>contact page</title>
+
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="img/norasFloraLogo.png" as="image">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="cart-icon-counter.js" defer></script>
+</head>
 <body>
 
     <header>
-        <img src="img/norasFloraLogo.png" class="Logo">
+        <img src="img/norasFloraLogo.png" loading="lazy" class="Logo">
         <div class="icon-cart">
             <<a href="Shoppingcart.html">
                 <svg aria-hidden=" true" xmlns="http://www.w3.org/2000/svg" width="42.5" height="40" fill="currentColor"

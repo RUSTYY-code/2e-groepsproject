@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="img/norasFloraLogo.png" as="image">
     <link rel="stylesheet" href="style.css">
+
     <title>Home</title>
 </head>
 
@@ -196,7 +199,7 @@
             let div = document.createElement('div');
 
             div.innerHTML = `<div class="assortment-item">
-                    <img src="${newItemImage}" alt="Diversen velt planten">
+                    <img src="${newItemImage}" loading="lazy" alt="Diversen velt planten">
                     <div class="assortment-caption">
                         <span>${newItemName}</span>
                         <span>Al vanaf €${newItemPrijs},- per pot</span>
